@@ -1,0 +1,79 @@
+aside.sidebar {
+    position: fixed;
+    height: 100%;
+    padding: 32px 24px;
+    background: #15c3d6;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  aside.sidebar footer button.delete  {
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: #12afcb;
+    border-radius: 1.6rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transition: background-color 200ms;
+  }
+
+  aside.sidebar footer a.edit  {
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: #12afcb;
+    border-radius: 1.6rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transition: background-color 200ms;
+  }
+
+  aside.sidebar footer button.goback  {
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: #12afcb;
+    border-radius: 1.6rem;
+    cursor: pointer;
+    margin-bottom: 6rem;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transition: background-color 200ms;
+  }
+
+  aside.sidebar footer button.delete:hover {
+    background: #FFBCD4;
+  }
+
+  aside.sidebar footer a.edit:hover {
+    background: #0b8592;
+  }
+
+  aside.sidebar footer button.goback:hover {
+    background: #17d6eb;
+  }
+  
+  
+  .with-sidebar {
+      padding-left: 110px;
+  }
+  
