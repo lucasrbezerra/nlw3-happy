@@ -39,7 +39,7 @@ and testing purposes. See deployment for notes on how to deploy the project on a
 ### Installing
 
 1. Clone the project running on your terminal
-```$ git clone https://github.com/lucasrbezerra/react-app-fichas.git```
+```$ git clone https://github.com/lucasrbezerra/nlw3-happy.git```
 
 2. Execute: 
 ```$ npm start```
